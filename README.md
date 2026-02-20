@@ -1,67 +1,72 @@
-## Resource Pack Tweaks
-### Bedrock Tweaks
-> Customize vanilla Minecraft textures with modular resource pack tweaks.\
-🔗<https://bedrocktweaks.net/resource-packs>
-## Bedrock Protocol & Data Documentation
-### Official Bedrock Protocol Docs
-> Learn how Bedrock networking packets and protocol systems work.\
-🔗<https://mojang.github.io/bedrock-protocol-docs>
-### Bedrock Wiki
+## 1. Bedrock Protocol & Data Documentation
+### Bedrock Wiki (Unofficial)
 > Comprehensive documentation on Bedrock Edition mechanics and data.\
 🔗<https://wiki.bedrock.dev>
-### Pocketmine Protocol Source Code
+### Bedrock Protocol Docs (Official)
+> Learn how Bedrock networking packets and protocol systems work.\
+🔗<https://mojang.github.io/bedrock-protocol-docs>
+### Pocketmine Bedrock Protocol Source Code
 > Explore the source code of the software.\
 🔗<https://github.com/pmmp/BedrockProtocol>
-### PrismarineJS Minecraft Data
-> Structured Minecraft data for developers (IDs, blocks, items, etc.).\
+### PrismarineJS Minecraft Bedrock Data
+> Structured Minecraft data for developers (packets, blocks, items date values etc.).\
 🔗<https://prismarinejs.github.io/minecraft-data>
-### Official Bedrock JSON Schemas (Mojang Samples)
+### Bedrock JSON Schemas (Mojang Samples) (Official)
 > JSON schemas for addons, scripting, and development.\
 🔗<https://github.com/Mojang/bedrock-samples/tree/main/metadata/json_schemas>
-### Bedrock Data Wiki
+### Bedrock Data Values (Community Based Wiki)
 > Technical data values and identifier reference.\
 🔗<https://minecraft.wiki/w/Bedrock_Edition_data_values>
-## World & Structure Tools
+
+## 2. World & Structure Tools
 ### JE2BE
-> Convert Java ↔ Bedrock worlds.\
+> Convert Java <-> Bedrock worlds.\
 🔗<https://je2be.app>
 ### Chunker
-> Convert and manage Minecraft world formats.\
+> Convert Java <-> Bedrock world.\
 🔗<https://www.chunker.app>
 ### WorldPainter
-> Advanced terrain generator and custom map editor.\
+> Advanced terrain generator and custom map editor. (Java Edition)\
 🔗<https://www.worldpainter.net>
 ### Cubical
-> Convert images into Minecraft block builds.\
+> Visualize schematics, structures etc.\
 🔗<https://cubical.xyz>
 ### Structura Lab
-> Generate and manage Minecraft structures.\
+> Get free Minecraft structures schematics.\
 🔗<https://structuralab.com>
 ### HoloPrint MC
-> Create blueprint-style hologram builds.\
-🔗<https://holoprint-mc.github.io>
+> Convert MCBE structure files into resource packs showing holograms of builds.\
+🔗<https://holoprint-mc.github.io>\
+🔗<https://github.com/SuperLlama88888/holoprint>
 ### ArnisMC
 > Convert real-life cities into Minecraft worlds or structures.\
+> Transform any location on Earth into a playable Minecraft world.\
 🔗<https://arnismc.com>
-## Modeling & Asset Tools
+
+## 3. Modeling & Asset Tools
 ### Blockbench
 > Free 3D model editor for blocks, items, entities, and animations.\
 🔗<https://www.blockbench.net>
 ### SkinView3D
 > View Minecraft skins in interactive 3D.\
 🔗<https://github.com/bs-community/skinview3d>
-## Language & Unicode Tools
+
+## 4. Language & Unicode Tools
 ### AnyLanguage
 > Edit `.lang` files for Bedrock packs.\
 🔗<https://github.com/solvedDev/AnyLanguage>\
 🔗<https://solveddev.github.io/AnyLanguage>
-### Bedrock Emoji Guide
+### Bedrock Emoji/Unicode Guide
 > Learn to create Unicode and custom emojis for Minecraft.\
 🔗<https://wiki.bedrock.dev/text/emojis>
-### Unicode Tools & Character Lists
-🔗<https://nhanaz.github.io/glyph>\
+### Unicode Tool
+> Upload a Font file and get a list of all the characters in it, along with their Unicode code points.\
+🔗<https://nhanaz.github.io/glyph>
+### Vanilla Unicode/Character List
+> List of all Unicode characters used in vanilla Minecraft.\
 🔗<https://github.com/TwistedAsylumMC/bedrock-unicode-characters>
-## Generators & Editors
+
+## 5. Generators & Editors / Utilities
 ### MCBE Essentials
 > Includes dialogue editor, loot table editor, and multiple generators.\
 🔗<https://mcbe-essentials.github.io>
@@ -70,21 +75,21 @@
 🔗<https://wiki.bedrock.dev/json-ui/json-ui-intro>\
 🔗<https://wiki.bedrock.dev/json-ui/json-ui-documentation>
 ### JSON UI Examples
-> Examples implementations of Bedrock JSON UI.\
+> Examples of implementations of Bedrock JSON UI.\
 🔗<https://github.com/LeGend077/json-ui-examples>
-### JSON UI Maker
+### JSON UI Editor
 > Visual tool to create basic UI screens.\
 🔗<https://sebthesigma.github.io/JSON-UI-Maker>
 ### Chest UI Editor
-> Create custom chest/inventory GUI screens (not Form/JSON UI).\
+> Create a custom chest/inventory GUI screens (not Form/JSONUI).\
 🔗<https://minato.beyondbedrock.org/web-apps/chest-ui-editor>
 ### ASAJS
 > Generate JSON UI code using JavaScript.\
 🔗<https://github.com/asakiyuki/asajs>
 ### Block Collision Viewer
-> Create and test multiple collision boxes (supports new 16-box system).\
+> Create and test multiple collision boxes (supports the new 16-box system).\
 🔗<https://kaioga5.github.io/block-collision-viewer>
-## Pocketmine Stuff
+## 6. Pocketmine Stuff
 ### Pocketmine Source Code
 > Explore the source code of the software.\
 🔗<https://github.com/pmmp/PocketMine-MP/tree/stable/src>
@@ -93,14 +98,15 @@
 🔗<https://poggit.pmmp.io/plugins>
 ### Customies
 > Create custom items, blocks, entities, and more for Pocketmine servers.\
-🔗<https://github.com/Amblydia/Customies>\
-🔗<https://github.com/Amblydia/Customies/wiki>
+🔗<https://github.com/CustomiesDevs/Customies> (Original)\
+🔗<https://github.com/Amblydia/Customies> (Fork/Updated)\
+🔗<https://github.com/Amblydia/Customies/wiki> (Fork/Updated)
 ### CameraUitls
 > Create custom camera cinematics and views.\
-🔗<https://github.com/ninjaknights/CameraUtils>
-### DrawerAPI
-> Create text/shapes with DebugDrawer.\
-🔗<https://github.com/ninjaknights/DrawerAPI>
-### SkinAPI
-> Handles Skins and Geometries.\
-🔗<https://github.com/ninjaknights/SkinAPI>
+🔗<https://github.com/ninjaknights/CameraUtils>\
+🔗<https://github.com/kaxyum/CameraAPI> (outdated)
+
+## 7. Resource Pack Tweaks
+### Bedrock Tweaks
+> Customize vanilla Minecraft textures with resource pack tweaks.\
+🔗<https://bedrocktweaks.net/resource-packs>
